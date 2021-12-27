@@ -11,8 +11,8 @@
          box-sizing: border-box;
        } 
 @media(min-width:360px){
-       body {
-         background: #f2f2f2;
+  body {
+         background: #EEF2FF;
          width: 100%;
        }
        .top_nav {
@@ -21,7 +21,7 @@
          left: 0;
          padding:20px;
          width: 100%;
-         background: #fff;
+         background: #6A8CAF;
          box-shadow: 0 3px 20px rgba(0,0,0,0.1);
          display: flex;
          flex-direction:row;
@@ -31,10 +31,10 @@
          position: absolute;
          height: 3px;
          width: 25px;
-         background-color: #003;
-         box-shadow: 0 7px 0 #003,
-          0 -7px 0 #003,
-          0 -7px 0 #003;
+         background-color: rgb(253, 253, 255);
+         box-shadow: 0 7px 0 rgb(255, 255, 255),
+          0 -7px 0 rgb(244, 244, 247),
+          0 -7px 0 rgb(251, 251, 253);
   
   
          right: 30px;
@@ -76,10 +76,12 @@
        float:right;
        position: fixed;
        right:15%;
+       color:white;
        }
        .logo{
        font-family: cursive;
        font-size:20px;
+       color:white;
        }
 
   .promo{
@@ -172,31 +174,31 @@
    }
  }
  @media(min-width:980px){
-   body {
-         background: #f2f2f2;
+  body {
+         background: #EEF2FF;
          width: 100%;
        }
-       .top_nav{
+       .top_nav {
          position: fixed;
+         background: #6A8CAF;
          top: 0;
          left: 0;
          padding:20px;
          width: 100%;
-         background: #fff;
+    
          box-shadow: 0 3px 20px rgba(0,0,0,0.1);
          display: flex;
          flex-direction:row;
-         height: 8vh;
          line-height: 20px;
        }
        .top_nav > .menu_btn {
          position: absolute;
          height: 3px;
          width: 25px;
-         background-color: #003;
-         box-shadow: 0 7px 0 #003,
-          0 -7px 0 #003,
-          0 -7px 0 #003;
+         background-color: rgb(253, 253, 255);
+         box-shadow: 0 7px 0 rgb(255, 255, 255),
+          0 -7px 0 rgb(244, 244, 247),
+          0 -7px 0 rgb(251, 251, 253);
   
   
          right: 30px;
@@ -205,9 +207,8 @@
          border-radius: 2px;
        }
        .side_nav {
-         height: 25vh;
-         width:60%;
-         margin-left:10%;
+         height: 50vh;
+         width: 80%;
          background-color:white;
           box-shadow: 0 3px 20px rgba(0,0,0,0.1);
         z-index: 1;
@@ -245,12 +246,14 @@
        right:15%;
        margin-top:20px;
        font-size:30px;
+       color:white;
        }
        .logo{
        font-family: cursive;
        font-size:40px;
        margin-top:22px;
        margin-left:20px;
+       color:white;
        }
  .promo{
  height:50vh;
@@ -346,6 +349,7 @@
      }
    ul>li>a{
    text-decoration: none;
+   color:white;
    }
    button>a{
      text-decoration: none;
@@ -357,7 +361,7 @@
     <body>
       <section class="top_nav">
         <ul>
-          <li class="logo">ElMoynsa </li>
+          <li class="logo">El Moynsa </li>
           </ul>
           <ul id="log">
         <li class="sign_up"><a href="sign_up.html">Sign-up   
@@ -374,7 +378,7 @@
      <button class="close" onclick="myFunction()"><i class="fa fa-close" style="font-size:25px"></i></button>
         <ul>
           <li class="side"><a href="index.html">  Home</a></li>
-            <li class="side"><a href="offers.html">Rooms & Offers</a></li>
+            <li class="side"><a href="AvailableRooms.html">Rooms & Offers</a></li>
             <li class="side"><a href="reservation.html">Reserve</a></li>
               <li class="side"><a href="about.html">About</a></li>
         </ul>
